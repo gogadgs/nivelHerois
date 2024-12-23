@@ -1,0 +1,50 @@
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height:16vh;
+    width:100vw;
+}
+
+nav{
+    justify-items: center;
+    align-content: center;
+    margin:1rem auto;
+    padding:1rem auto;
+
+}
+ul{
+    display: grid;
+    grid-template-columns: repeat(3,3fr);
+    list-style: none;
+    justify-items: center;
+    align-content: center;
+    width: 100%;
+
+}
+
+header nav ul li{
+    display: grid;
+    margin:0.2rem 0.033rem;
+   
+    justify-items: center;
+    align-content: center;
+    border: 1px solid gray;
+    border-radius: 50px;
+
+}
+header nav ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:0.5rem;
+    border-radius: 30%;
+}
+header nav ul li a:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    padding:0.5rem;
+    border-radius: 50px;
+    background:black;
+    color:gray;
+}

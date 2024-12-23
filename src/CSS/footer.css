@@ -1,0 +1,10 @@
+footer{
+    width:100vw;
+    margin:0 auto;
+    height:10vh;
+}
+footer p {
+    margin:0 auto;
+    text-align: center;
+    max-height: 2vh;
+}
